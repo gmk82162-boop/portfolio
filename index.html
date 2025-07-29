@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dog Breed Sale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-6">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center">
+      <h1 class="text-3xl font-bold mb-2 sm:mb-0">🐾 Dog Breed Sale</h1>
+      <nav>
+        <a href="#" class="px-3 hover:underline">Home</a>
+        <a href="#" class="px-3 hover:underline">Breeds</a>
+        <a href="#" class="px-3 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-green-100 text-center py-10">
+    <h2 class="text-4xl font-bold mb-2 text-green-900">Find Your Perfect Companion</h2>
+    <p class="text-lg text-green-700 mb-4">Special discounts on popular dog breeds this week only!</p>
+    <a href="#breeds" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800 transition">Shop Now</a>
+  </section>
+
+  <!-- Dog breed cards -->
+  <main class="max-w-5xl mx-auto py-10 px-4" id="breeds">
+    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Available Breeds</h3>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Breed Card 1 -->
+      <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400&h=300&fit=crop" alt="Golden Retriever" class="w-40 h-32 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-bold mb-1">Golden Retriever</h4>
+        <p class="text-green-700 font-semibold mb-2">₹25,000 <span class="line-through text-gray-400 text-sm ml-2">₹30,000</span></p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full">Buy Now</button>
+      </div>
+      <!-- Breed Card 2 -->
+      <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?w=400&h=300&fit=crop" alt="Labrador" class="w-40 h-32 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-bold mb-1">Labrador</h4>
+        <p class="text-green-700 font-semibold mb-2">₹22,000 <span class="line-through text-gray-400 text-sm ml-2">₹27,000</span></p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full">Buy Now</button>
+      </div>
+      <!-- Breed Card 3 -->
+      <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1518715308788-c1be0a7c09a3?w=400&h=300&fit=crop" alt="Pug" class="w-40 h-32 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-bold mb-1">Pug</h4>
+        <p class="text-green-700 font-semibold mb-2">₹18,000 <span class="line-through text-gray-400 text-sm ml-2">₹22,000</span></p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full">Buy Now</button>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white py-4 mt-10">
+    <div class="max-w-5xl mx-auto text-center">
+      &copy; 2025 Dog Breed Sale. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
